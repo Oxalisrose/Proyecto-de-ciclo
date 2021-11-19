@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">">
+    <title>Sabores unicos</title>
+    <script src="Cotizacionsaborunico.js"></script>
+</head>
+<body>
+    <div id="encabezado">
+        <img src="banner.png" 
+        width: 1500px;
+        height:400px
+        >
+    </div>
+    <div id="menu">
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='index.html'>Inicio</a></li>
+              <li><a class='dropdown-arrow'>Nuestros productos</a>
+                <ul class='sub-menus'>
+                  <li><a href='presentaciones.html'>Presentaciones</a></li>
+                  <li><a href='unicafruta.html'>Sabores unica fruta</a></li>
+                  <li><a href='mezclas.html'>Sabores mezclas</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href='http://'>Recetas</a></li>
+              </li>
+              <li><a href='contactenos.html'>Contactenos</a></li>
+            </ul>
+          </nav>
+
+    </div>
+    
+
+    <div id="cuerpo">
+    <form name=cotizar>
+        <div id= columnaizquierda> 
+            
+            
+            <div id=cajonarriba>
+                <center><div id=producto>
+                <h3>Mora</h3> 
+                <img src="mora.jpg"
+                width="200"
+                height="120">
+                </div></center>
+            </div> 
+             <div id=precio>
+            <label for="">Mora</label>
+                Presentacion: <select name="Mora">
+                    <option type=number value="1">125 gr</option> 
+                    <option type=number value="2">250gr</option> 
+                    <option type=number value="3">500gr</option>
+                 </select><br>
+                Cantidad: <input  type=number value="0" name="Mora1" id="Mora1">
+                </div> 
+            <div id=cajocentro>
+                <center><div id=producto>
+                    <h3>Fresa</h3> 
+                    <img src="fresa.jfif"
+                    width="200"
+                    height="120">
+                    </div></center>
+                </div> 
+                 <div id=precio>
+                     Presentacion: <select name="Fresa">
+                        <option value="1">125gr</option> 
+                        <option value="2">250gr</option> 
+                        <option value="3">500gr</option>
+                     </select>  <br>
+                    Cantidad: <input  type=number value="0" name="Fresa1" id="Fresa1" > <br>
+                    </div> 
+
+            <div id=cajonabajo>
+                    <center><div id=producto>
+                        <h3>Guanabana</h3> 
+                        <img src="guanaba.jfif"
+                        width="200"
+                        height="120"></div></center>
+                    </div> 
+                     <div id=precio>
+                        Presentacion: <select name="Guanabana">
+                            <option value="1">125 gr</option> 
+                            <option value="2">250gr</option> 
+                            <option value="3">500gr</option>
+                         </select><br> 
+                        Cantidad: <input  type=number value="0" name="Guanabana1" id="Guanabana1"> <br>
+                        </div>
+
+            </div>
+        
+        <div id= columnacentro>
+            <div id=cajonarriba>
+            <center><div id=producto>
+            <h3>Lulo</h3> 
+            <img src="lulo.jfif"
+            width="200"
+            height="120">
+            </div></center>
+        </div> 
+         <div id=precio>
+            Presentacion: <select name="Lulo">
+                <option value="1">125 gr</option> 
+                <option value="2">250gr</option> 
+                <option value="3">500gr</option>
+             </select>  <br>
+            Cantidad: <input  type=number value="0" name="Lulo1" id="Lulo2"> <br>
+            </div>
+        
+        <div id=cajocentro>
+            <center><div id=producto>
+            <h3>Mango</h3> 
+            <img src="mango.jpg"
+            width="200"
+            height="120">
+            </div></center>
+            </div> 
+            <div id=precio>
+                Presentacion: <select name="Mango">
+                    <option value="1">125 gr</option> 
+                    <option value="2">250gr</option> 
+                    <option value="3">500gr</option>
+                 </select>  <br>
+                Cantidad: <input  type=number value="0" name="Mango1" id="Mango1"> <br>
+                </div>
+        <div id=cajonabajo>
+            <center><div id=producto>
+            <h3>Piña</h3> 
+            <img src="piña.jfif"
+            width="200"
+            height="120"></div></center>
+            </div> 
+            <div id=precio>
+            Presentacion: <select name="Pina">
+            <option value="1">125 gr</option> 
+            <option value="2">250gr</option> 
+            <option value="3">500gr</option>
+            </select> <br>
+            Cantidad: <input  type=number value="0" name="Pina1" id="Pina1"> <br>
+        </div>
+        
+        </div>
+
+        <div id= columnaizquierda>    
+        <div id=cajonarriba>
+            <center><div id=producto>
+            <h3>Curuba</h3> 
+            <img src="curuba.jfif"
+            width="200"
+            height="120">
+            </div></center>
+        </div> 
+         <div id=precio> 
+            Presentacion: <select name="Curuba">
+                <option value="1">125 gr</option> 
+                <option value="2">250gr</option> 
+                <option value="3">500gr</option>
+             </select>  <br>
+            Cantidad: <input  type=number value="0" name="Curuba1" id="Curuba1"> <br>
+            </div>
+        
+        <div id=cajocentro>
+            <center><div id=producto>
+            <h3>Freijoa</h3> 
+            <img src="freijoa.jfif"
+            width="200"
+            height="120">
+            </div></center>
+            </div> 
+            <div id=precio>
+                Presentacion: <select name="Freijoa">
+                    <option value="1">125 gr</option> 
+                    <option value="2">250gr</option> 
+                    <option value="3">500gr</option>
+                 </select>  <br>
+                Cantidad: <input  type=number value="0" name="Freijoa1" id="Freijoa"><br>
+            </div>
+        
+         </div> 
+        <Center><input type="button" value="Cotizar" name="dividir" onclick="calcula()">
+        <b>Precio:</b> <input type="number" id= "Resultado" name="Resultado" size="5"> <br>
+        <br> </Center>
+        </div>
+        
+    </form>        
+    </div>
+        
+<div id="pie">
+    <center>¡¡Contactenos!!! Con gusto atendermos sus solicitudes</center>
+        <center>@copyright Pulpas Inc.</center>
+</div> 
+</body> 
+</html>
